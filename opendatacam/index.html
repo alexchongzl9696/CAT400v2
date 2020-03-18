@@ -1,0 +1,34 @@
+<html>
+<head>
+<!--    <script src="/locationofz/jQuery.js"></script>-->
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <script>
+        const {ipcRenderer}=require('electron')
+
+        function loadButton(){
+            ipcRenderer.send('load-button','true');
+            console.log('load-button');
+        }
+
+        function startButton(){
+            ipcRenderer.send('start-button','true');
+            console.log('start-button');
+        }
+
+        ipcRenderer.send('openFile',()=>{
+            console.log('openFile');
+        })
+        ipcRenderer.on('fileData',(event,data)=>{
+            document.write(data)
+            console.log('fileData');
+        })
+    </script>
+</head>
+<body>
+<button type="button" id="loadbtn" onclick="loadButton()">Load</button>
+<button type="button" id="startbtn" onclick="startButton()">Start</button>
+</body>
+</html>
