@@ -28,7 +28,7 @@
     "immutable": "^4.0.0-rc.12",
     "intercept-stdout": "^0.1.2",
     "ip": "^1.1.5",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jsdom": "^16.2.0",
     "killable": "^1.0.1",
     "lodash.clonedeep": "^4.5.0",
