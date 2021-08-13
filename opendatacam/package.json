@@ -36,7 +36,7 @@
     "mjpeg-proxy": "^0.2.0",
     "mjpeg-server": "^0.3.0",
     "mongodb": "^3.5.4",
-    "next": "8.1.0",
+    "next": "11.1.0",
     "next-redux-wrapper": "^3.0.0",
     "node-moving-things-tracker": "^0.6.0",
     "open-file-dialog": "^1.0.1",
