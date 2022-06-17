@@ -63,7 +63,7 @@
     "apidoc": "^0.17.7",
     "autoprefixer": "^9.7.4",
     "cssnano": "^4.1.10",
-    "electron": "^8.0.2",
+    "electron": "^15.5.5",
     "tailwindcss": "^1.2.0"
   }
 }
