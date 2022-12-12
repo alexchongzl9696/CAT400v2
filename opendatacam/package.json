@@ -20,7 +20,7 @@
     "custom-electron-titlebar": "^3.2.2-hotfix62",
     "dayjs": "^1.8.21",
     "electron-is-dev": "^1.1.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "file-dialog": "0.0.8",
     "forever-monitor": "^1.7.2",
     "fs": "0.0.1-security",
